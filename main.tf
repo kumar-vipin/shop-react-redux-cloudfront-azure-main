@@ -20,8 +20,8 @@ resource "azurerm_resource_group" "front_end_rg" {
 }
 
 resource "azurerm_storage_account" "front_end_storage_account" {
-  name                     = "stgvkfrontendne001"
-  location                 = "northeurope"
+  name     = "stgvkfrontendne001"
+  location = "northeurope"
 
   account_replication_type = "LRS"
   account_tier             = "Standard"
